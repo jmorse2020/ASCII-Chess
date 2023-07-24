@@ -10,9 +10,10 @@ class Material(Enum):
 
 class Alliance(Enum):
     WHITE = 1,
-    BLACK = 2
+    BLACK = 0
+
 
 class Piece:
-    def __init__(self, material=None, alliance=None) -> None:
+    def __init__(self, material=None, alliance=None, location=None):
         self.material = material
         self.alliance = alliance
