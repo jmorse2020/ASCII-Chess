@@ -1,6 +1,9 @@
 from Board import Board
 from Piece import Alliance
 
+board = Board()
+board.reset_board()
+print(board)
 def is_game_over() -> bool:
     pass
 
